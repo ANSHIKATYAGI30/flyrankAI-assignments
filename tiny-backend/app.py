@@ -8,14 +8,12 @@ def home():
         "message": "Backend is running!"
     })
 
-
 @app.route("/hello")
 def hello():
     return jsonify({
         "name": "abc",
         "message": "Hello there!!"
     })
-
 
 if __name__ == "__main__":
     app.run(debug=True)

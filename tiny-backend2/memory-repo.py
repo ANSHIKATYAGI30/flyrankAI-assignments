@@ -1,7 +1,6 @@
 from repository import Repository
 
 class MemoryRepository(Repository):
-
     def __init__(self):
         self.messages = []
 
